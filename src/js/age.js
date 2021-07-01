@@ -14,5 +14,6 @@ export default class Age {
     const lifeExpectancy = 78;
     this.earthLife = lifeExpectancy - this.userAge;
     this.mercuryLife = lifeExpectancy - this.mercuryAge;
+    this.venusLife = lifeExpectancy - this.venusAge;
   }
 }

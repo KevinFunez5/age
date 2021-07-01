@@ -37,4 +37,10 @@ describe('Age', () => {
     age.life();
     expect(age.mercuryLife).toEqual(74);
   });
+
+  test('should output life expectancy on Venus', () => {
+    const age = new Age(20);
+    age.life();
+    expect(age.venusLife).toEqual(66)
+  });
 });

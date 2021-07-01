@@ -1,31 +1,43 @@
-# (Application Name)
+# Galactical Age Calucalators
 
-#### (Brief Description of Application)
+#### (This week I created an application that calculates the age of a user in a different planet)
 
-#### By (Your Name Here)
+#### By (Kevin Funez)
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* Javascript
+* CSS
+* HTML
+* Jest
+* ESlint
+* Babel
+* Webpack 
 
 ## Description
 
+On this independant project, the application built will be able let a user enter their age and it will calculate the age on different planets. This also includes life expectancy for those planets according to each individual planet. 
+
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
+* Clone this repo: git clone https://github.com/kevinfunez5/age.git
+* Enter new directory cd age
+* Install dependencies with npm install
+* To run it locally, use the npm dev command npm run start
+* Open your web browser and navigate to http://localhost:9001
+* For a production build, use npm run build
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* NO known bugs
+* If any found please contact via email
 
 ## License
 
+This software is licensed under the MIT license.
+
+Copyright © 2021 Kevin Funez
+
 ## Contact Information
+
+kevin.funez315@gmail.com

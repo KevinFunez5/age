@@ -8,6 +8,11 @@ describe('Age', () => {
 
   test('should output Mercury age', () => {
     const age = new Age(20)
-    expect(age.mercuryAge).toEqual(4.8)
+    expect(age.mercuryAge).toEqual(4.8);
+  });
+
+  test('should output Mercury age as a whole number', () => {
+    const age = new Age(20)
+    expect(age.mercuryAge).toEqual(4);
   });
 });

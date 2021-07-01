@@ -11,8 +11,8 @@ describe('Age', () => {
     expect(age.mercuryAge).toEqual(4.8);
   });
 
-  test('should output Mercury age as a whole number', () => {
+  test('should output Venus age', () => {
     const age = new Age(20)
-    expect(age.mercuryAge).toEqual(4);
-  });
+    expect(age.venusAge).toEqual(12.4)
+  })
 });

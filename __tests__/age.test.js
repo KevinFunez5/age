@@ -26,9 +26,15 @@ describe('Age', () => {
     expect(age.jupiterAge).toEqual(237);
   });
 
-  test('should output how many years user has left to live on Earth', () => {
+  test('should output life expentancy on Earth', () => {
     const age = new Age(20);
     age.life();
     expect(age.earthLife).toEqual(58);
+  });
+
+  test('should output life expectancy on Mercury', () => {
+    const age = new Age(20);
+    age.life();
+    expect(age.mercuryLife).toEqual(74);
   });
 });

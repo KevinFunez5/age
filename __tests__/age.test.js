@@ -23,6 +23,6 @@ describe('Age', () => {
 
   test('should output Jupiter age', () => {
     const age = new Age(20)
-    expect(age.jupiterAge).toEqual(237.2)
+    expect(age.jupiterAge).toEqual(237)
   });
 });

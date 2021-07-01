@@ -25,4 +25,10 @@ describe('Age', () => {
     const age = new Age(20)
     expect(age.jupiterAge).toEqual(237);
   });
+
+  test('should output how many years user has left to live on Earth', () => {
+    const age = new Age(20);
+    age.life();
+    expect(age.earthLife).toEqual(58);
+  });
 });

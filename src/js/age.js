@@ -5,5 +5,12 @@ export default class Age {
     this.venusAge = Math.floor(age * .62);
     this.marsAge = Math.floor(age * 1.88);
     this.jupiterAge = Math.floor(age * 11.86);
+    this.earthLife = "";
   }
-}
+
+
+  life() {
+    const lifeExpectancy = 78;
+    this.earthLife = lifeExpectancy - this.userAge;
+  }
+};

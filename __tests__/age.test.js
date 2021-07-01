@@ -41,6 +41,12 @@ describe('Age', () => {
   test('should output life expectancy on Venus', () => {
     const age = new Age(20);
     age.life();
-    expect(age.venusLife).toEqual(66)
+    expect(age.venusLife).toEqual(66);
+  });
+
+  test('should output life expectancy on Mars', () => {
+    const age = new Age(20);
+    age.life();
+    expect(age.marsLife).toEqual(41);
   });
 });

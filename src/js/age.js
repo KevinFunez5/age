@@ -6,7 +6,10 @@ export default class Age {
     this.marsAge = Math.floor(age * 1.88);
     this.jupiterAge = Math.floor(age * 11.86);
     this.earthLife = "";
-    this.earthLife = "";
+    this.mercuryLife = "";
+    this.venusLife = "";
+    this.marsLife = "";
+    this.jupiterLife = "";
   }
 
 
@@ -16,5 +19,6 @@ export default class Age {
     this.mercuryLife = lifeExpectancy - this.mercuryAge;
     this.venusLife = lifeExpectancy - this.venusAge;
     this.marsLife = lifeExpectancy - this.marsAge;
+    this.jupiterLife = this.jupiterAge - lifeExpectancy;
   }
 }

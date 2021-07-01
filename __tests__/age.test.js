@@ -49,4 +49,10 @@ describe('Age', () => {
     age.life();
     expect(age.marsLife).toEqual(41);
   });
+
+  test('should output how many years over the life expectancy user has lived', () => {
+    const age = new Age(20);
+    age.life();
+    expect(age.jupiterLife).toEqual(159);
+  })
 });

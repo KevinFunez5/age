@@ -18,11 +18,11 @@ describe('Age', () => {
 
   test('should output Mars age', () => {
     const age = new Age(20)
-    expect(age.marsAge).toEqual(37)
+    expect(age.marsAge).toEqual(37);
   });
 
   test('should output Jupiter age', () => {
     const age = new Age(20)
-    expect(age.jupiterAge).toEqual(237)
+    expect(age.jupiterAge).toEqual(237);
   });
 });

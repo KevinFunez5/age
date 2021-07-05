@@ -26,6 +26,7 @@ On this independant project, the application built will be able let a user enter
 * To run it locally, use the npm dev command npm run start
 * Open your web browser and navigate to http://localhost:9001
 * For a production build, use npm run build
+* Then run npm run start to use tests
 
 ## Known Bugs
 

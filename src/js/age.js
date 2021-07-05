@@ -21,4 +21,9 @@ export default class Age {
     this.marsLife = lifeExpectancy - this.marsAge;
     this.jupiterLife = this.jupiterAge - lifeExpectancy;
   }
+
+  const calc = function () {
+    this.mercuryAge = Math.floor(age * .24)
+    
+  }
 }

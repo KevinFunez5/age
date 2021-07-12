@@ -11,7 +11,6 @@ export default class Age {
     this.marsLife = "";
     this.jupiterLife = "";
   }
-
   life() {
     const lifeExpectancy = 78;
     if (this.userAge <= lifeExpectancy) {

@@ -12,18 +12,37 @@ export default class Age {
     this.jupiterLife = "";
   }
 
-
   life() {
     const lifeExpectancy = 78;
-    this.earthLife = lifeExpectancy - this.userAge;
-    this.mercuryLife = lifeExpectancy - this.mercuryAge;
-    this.venusLife = lifeExpectancy - this.venusAge;
-    this.marsLife = lifeExpectancy - this.marsAge;
-    this.jupiterLife = this.jupiterAge - lifeExpectancy;
-  }
-
-  const calc = function () {
-    this.mercuryAge = Math.floor(age * .24)
-    
-  }
+    if (this.userAge <= lifeExpectancy) {
+      this.earthLife = lifeExpectancy - this.userAge;
+    } else if (this.userAge > lifeExpectancy) {
+      this.earthLife = this.userAge - lifeExpectancy;
+    }
+    if (this.mercuryAge <= lifeExpectancy) {
+      this.mercuryLife = lifeExpectancy - this.mercuryAge;
+    } else if (this.mercuryAge > lifeExpectancy) {
+      this.mercuryLife = this.mercuryAge - lifeExpectancy;
+    }
+    if (this.venusAge <= lifeExpectancy) {
+      this.venusLife = lifeExpectancy - this.venusAge;
+    } else if (this.venusAge > lifeExpectancy) {
+      this.venusLife = this.venusAge - lifeExpectancy;
+    }
+    if (this.marsAge <= lifeExpectancy) {
+      this.marsLife = lifeExpectancy - this.marsAge;
+    } else if (this.marsAge > lifeExpectancy) {
+      this.marsLife = this.marsAge - lifeExpectancy;
+    }
+    if (this.marsAge <= lifeExpectancy) {
+      this.marsLife = lifeExpectancy - this.marsAge;
+    } else if (this.marsAge > lifeExpectancy) {
+      this.marsLife = this.marsAge - lifeExpectancy;
+    }
+    if (this.jupiterAge <= lifeExpectancy) {
+      this.jupiterLife = lifeExpectancy - this.jupiterAge;
+    } else if (this.jupiterAge > lifeExpectancy) {
+      this.jupiterLife = this.jupiterAge - lifeExpectancy;
+    }
+  } 
 }
